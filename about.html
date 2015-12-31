@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Responsive Fullwidth website template</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/modernizr.js"></script>
+      <script type="text/javascript" src="js/responsee.js"></script>
+      <!--[if lt IE 9]>
+	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <![endif]-->
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->
+      <header>
+         <nav>
+            <div class="line">
+               <div class="s-12 l-2">
+                  <img class="s-5 l-12 center"src="img/MG.jpg">
+               </div>
+               <div class="top-nav s-12 l-10 right">
+                  <p class="nav-text">Custom menu  text</p>
+                  <ul class="right">
+                     <li><a href="index.html">Home</a></li>
+                     <li>
+                        <a href="services.html">Services</a>
+                        <ul>
+                           <li><a>Residential</a></li>
+                           <li><a>Auto</a></li>
+                           <li><a>Commercial</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="contact.html">Contact & Location</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section>
+         <!-- CAROUSEL --> 
+         <div id="carousel">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+               <div class="item">
+                  <img src="img/mgsi.jpg" alt="">
+               </div>
+            </div>
+         </div>
+         <div id="fourth-block">
+            <div class="line">
+               <div id="owl-demo2" class="owl-carousel owl-theme">
+                  <div class="item2">
+                     <h2>Dan Nebuda</h2>
+                        <div class="item">
+                           <img src="img/dan2.jpg" alt="">
+                        </div>
+                     <p>Dan grew up in West Point, NE. He started learning the glass trade in the mid 70's and would move to Columbus over 25 years ago. He sought out his passion to be a business owner and help people. In 1991, Dan & his family moved to Columbus and he became owner and manager of Midwest Glass Services Inc.</p>
+                     <p>Dan loves being a fan of all Husker sports, is active at his church Peace Lutheran, and most of all spending time with his family. His wife, son, daughter and now grandson keep him plenty busy.</p>
+                  </div>
+                  <div class="item2">
+                     <h2>Mike Brandt</h2>
+                        <div class="item">
+                           <img src="img/dan2.jpg" alt="">
+                        </div>
+                     <p>Mike is the one employee who has worked at Midwest Glass Services Inc. longer than Dan. Mike started shortly after high school and has been primarily responsible for MGSI's quality of service.</p> 
+                     <p>Mike and his wife Amy have 3 daughters and a son. His daughters all attend Scotus and his son attends St Isadore. Mike is a fan of husker football, Nascar, and?</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FOOTER -->
+         <div id="footer">
+            <footer>
+               <div class="line">
+                  <a href="tel:1-800-645-9671"><img src="C:\Users\Ryan\Desktop\MGSIa\img\phone.png" alt="phone logo" class="social-icon"></a>
+                  <a href="mailto:mgsi@megavision.net"><img src="C:\Users\Ryan\Desktop\MGSIa\img\mail.png" alt="mail logo" class="social-icon"></a>
+                  <p><strong>&copy;2015 Midwest Glass Services Inc.</strong></p>
+               </div> 
+            </footer>
+         </div>
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {	  
+           $("#owl-demo").owlCarousel({		
+         	navigation : true,
+         	slideSpeed : 300,
+         	paginationSpeed : 400,
+         	autoPlay : true,
+         	singleItem:true
+           });
+           $("#owl-demo2").owlCarousel({
+        		slideSpeed : 300,
+        		autoPlay : false,
+        		navigation : true,
+        		pagination : true,
+        		singleItem:true
+        	  });
+         });	 
+      </script>
+   </body>
+</html>
