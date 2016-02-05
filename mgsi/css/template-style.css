@@ -1,0 +1,128 @@
+#first-block, #second-block, #third-block, #fourth-block, {
+text-align:center;
+padding:3.5em 0;
+}
+#carousel {
+text-align:center;
+}
+#first-block {
+background:#fff;
+padding:15px;
+}
+#second-block {
+  background: #9bbfea; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e9e9e9, #9bbfea, #e9e9e9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e9e9e9, #9bbfea, #e9e9e9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e9e9e9, #9bbfea, #e9e9e9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e9e9e9, #9bbfea, #e9e9e9); /* Standard syntax */
+  padding-top: 1em;
+}
+#third-block {
+background:#fff;
+}
+#fourth-block {
+background:#e5e5e5;
+float: center;
+}
+
+@media screen and (max-width: 768px) {
+  .right {
+  float:none;
+  } 
+}
+
+/*********************
+Footer
+*********************/
+
+.social-icon {
+display: inline-block;
+text-align: center;
+float:center;
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+width: 3em;
+}
+
+#footer {
+text-align: center;
+  background: #86b2e6; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e9e9e9, #86b2e6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e9e9e9, #86b2e6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e9e9e9, #86b2e6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e9e9e9, #86b2e6); /* Standard syntax */
+padding-top:1050px;
+padding:1.5em;
+}
+
+/*********************
+Contact & Location
+*********************/
+
+.googlemap {
+position: relative;
+padding-top: 75px;
+padding-bottom: 25%;
+height: auto;
+width: auto;
+}
+
+.googlemap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 25px;
+  margin: 0 0 10px 0;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info iframe {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*********************
+About
+*********************/
+
+.item2 img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  float: left;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.item2 {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.item2 h2 {
+  text-align: center;
+}
