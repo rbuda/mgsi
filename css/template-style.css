@@ -22,6 +22,7 @@ background:#fff;
 }
 #fourth-block {
 background:#e5e5e5;
+float: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -61,9 +62,10 @@ Contact & Location
 
 .googlemap {
 position: relative;
-padding-top: 25px;
-padding-bottom: 56.25%;
-height: 0;
+padding-top: 75px;
+padding-bottom: 25%;
+height: auto;
+width: auto;
 }
 
 .googlemap iframe {
@@ -113,10 +115,12 @@ About
   width: auto;
   float: left;
   padding-right: 1em;
+  padding-left: 1em;
 }
 
 .item2 {
-  padding-right: 5em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .item2 h2 {

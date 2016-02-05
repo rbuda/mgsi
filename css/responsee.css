@@ -234,7 +234,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   width:100%;
 }
 .margin-bottom {margin-bottom:1.25em;}
-.s-1, .s-2,.s-five,.s-3, .s-4, .s-5, .s-6, .s-7, .s-8, .s-9, .s-10, .s-11, .s-12, .m-1, .m-2, .m-five, .m-3, .m-4, .m-5, .m-6, .m-7, .m-8, .m-9, .m-10, .m-11, .m-12, .l-1, .l-2, .l-five, .l-3, .l-4, .l-5, .l-6, .l-7, .l-8, .l-9, .l-10, .l-11, .l-12 {
+.services, .s-1, .s-2,.s-five,.s-3, .s-4, .s-5, .s-6, .s-7, .s-8, .s-9, .s-10, .s-11, .s-12, .m-1, .m-2, .m-five, .m-3, .m-4, .m-5, .m-6, .m-7, .m-8, .m-9, .m-10, .m-11, .m-12, .l-1, .l-2, .l-five, .l-3, .l-4, .l-5, .l-6, .l-7, .l-8, .l-9, .l-10, .l-11, .l-12 {
   float:left;
   position:relative;
 }
@@ -264,6 +264,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .s-10 {width:83.3333%;}
 .s-11 {width:90%;}
 .s-12 {width:100%;}
+.services{width:100%;}
 .margin > .s-1,.margin > .s-2,.margin > .s-five,.margin > .s-3,.margin > .s-4,.margin > .s-5,.margin > .s-6,.margin > .s-7,.margin > .s-8,.margin > .s-9,.margin > .s-10,.margin > .s-11,.margin > .s-12,
 .margin > .m-1,.margin > .m-2,.margin > .m-five,.margin > .m-3,.margin > .m-4,.margin > .m-5,.margin > .m-6,.margin > .m-7,.margin > .m-8,.margin > .m-9,.margin > .m-10,.margin > .m-11,.margin > .m-12,
 .margin > .l-1,.margin > .l-2,.margin > .l-five,.margin > .l-3,.margin > .l-4,.margin > .l-5,.margin > .l-6,.margin > .l-7,.margin > .l-8,.margin > .l-9,.margin > .l-10,.margin > .l-11,.margin > .l-12 {padding:0 0.625em;}
@@ -274,6 +275,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .m-4 {width:33.3333%;}
 .m-5 {width:41.6666%;}
 .m-6 {width:50%;}
+.services{width:50%;}
 .m-7 {width:58.3333%;}
 .m-8 {width:66.6666%;}
 .m-9 {width:75%;}
@@ -426,6 +428,9 @@ nav {
 .m-10 {width:83.3333%;}
 .m-11 {width:90%;}
 .m-12 {width:100%}
+.left2{width:100%}
+.right2{width:100%}
+.center2{width:100%}
 }
 @media screen and (max-width:480px) {
 .size-960 {max-width:480px;}
@@ -488,6 +493,9 @@ nav {
 .s-10 {width:83.3333%;}
 .s-11 {width:90%;}
 .s-12 {width:100%}
+.left2{width:100%}
+.right2{width:100%}
+.center2{width:100%}
 }  
 .center {
   float:none;
